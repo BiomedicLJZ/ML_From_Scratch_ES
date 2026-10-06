@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Asignar cada punto a su centroide mas cercano, y luego recalcular los centroides\
+    \ como la media de sus puntos asignados"
+    is_correct: true
+  - text: "Ordenar los puntos por distancia al origen, y luego dividirlos en grupos\
+    \ de igual tamaño"
+    is_correct: false
+  - text: Eliminar el punto mas alejado de la media general en cada iteracion
+    is_correct: false
+message_incorrect: Vuelve a leer la sección "Centroides" de la página de teoría —
+  K-Means alterna entre un paso de asignación y un paso de actualización.
+files:
+  - name: main.py
+    visible: true
+custom_name: Quiz - ¿Entre qué alterna K-Means?
+local_check: true

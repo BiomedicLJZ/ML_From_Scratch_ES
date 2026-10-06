@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar compute_cost()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 554
+        length: 133
+        placeholder_text: "# recorta predict_proba(X) lejos de 0/1, y devuelve la entropia\
+      \ cruzada binaria respecto a y"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,5 @@
+type: theory
+custom_name: ¿Qué es DBSCAN?
+files:
+  - name: main.py
+    visible: true

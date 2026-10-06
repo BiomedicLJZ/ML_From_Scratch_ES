@@ -1,0 +1,8 @@
+custom_name: Regresión Lineal
+content:
+  - theory
+  - predict_task
+  - cost_task
+  - gradient_task
+  - fit_task
+  - quiz_task

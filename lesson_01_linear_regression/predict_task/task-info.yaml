@@ -1,0 +1,14 @@
+type: edu
+custom_name: Implementar predict()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 280
+        length: 38
+        placeholder_text: "# devuelve la combinacion lineal X . weights + bias"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

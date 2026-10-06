@@ -1,0 +1,14 @@
+type: edu
+custom_name: Implementar _cluster_distance()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 344
+        length: 52
+        placeholder_text: "# devuelve la distancia single-linkage entre los dos clusters"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

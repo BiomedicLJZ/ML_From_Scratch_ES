@@ -1,0 +1,5 @@
+type: theory
+custom_name: ¿Qué es la regresión lineal?
+files:
+  - name: main.py
+    visible: true

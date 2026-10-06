@@ -1,0 +1,14 @@
+type: edu
+custom_name: Implementar predict_proba()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 351
+        length: 53
+        placeholder_text: "# devuelve sigmoid(X . weights + bias)"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

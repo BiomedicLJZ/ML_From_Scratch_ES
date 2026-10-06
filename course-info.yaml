@@ -1,0 +1,26 @@
+type: marketplace
+title: Machine Learning desde Cero
+language: Spanish
+summary: |
+  Construye tú mismo los algoritmos centrales de machine learning, desde la Regresión Lineal
+  hasta DBSCAN, usando únicamente NumPy. Cada lección presenta un algoritmo mediante teoría y
+  luego te hace implementarlo pieza por pieza: sin scikit-learn, sin cajas negras. Cubre
+  aprendizaje supervisado (regresión y clasificación) y aprendizaje no supervisado
+  (clustering y reducción de dimensionalidad).
+programming_language: Python
+environment: unittest
+content:
+  - lesson_01_linear_regression
+  - lesson_02_logistic_regression
+  - lesson_03_knn
+  - lesson_04_decision_tree
+  - lesson_05_kmeans
+  - lesson_06_pca
+  - lesson_07_hierarchical_clustering
+  - lesson_08_dbscan
+additional_files:
+  - name: requirements.txt
+  - name: README.md
+  - name: pyproject.toml
+  - name: uv.lock
+yaml_version: 6

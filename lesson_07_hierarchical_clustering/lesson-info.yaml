@@ -1,0 +1,7 @@
+custom_name: Clustering Jerárquico
+content:
+  - theory
+  - distance_task
+  - cluster_distance_task
+  - fit_task
+  - quiz_task

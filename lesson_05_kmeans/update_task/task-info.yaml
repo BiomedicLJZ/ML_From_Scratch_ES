@@ -1,0 +1,14 @@
+type: edu
+custom_name: Implementar _update_centroids()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 484
+        length: 73
+        placeholder_text: "# recalcula cada centroide como la media de sus puntos asignados"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

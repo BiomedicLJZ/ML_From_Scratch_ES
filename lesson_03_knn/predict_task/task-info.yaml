@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar predict()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 746
+        length: 50
+        placeholder_text: "# aplica _predict_one a cada fila de X y devuelve el array\
+      \ de predicciones"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

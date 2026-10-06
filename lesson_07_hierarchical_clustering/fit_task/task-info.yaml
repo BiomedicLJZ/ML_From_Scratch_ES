@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar fit()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 428
+        length: 788
+        placeholder_text: "# empieza con un cluster por punto, luego fusiona repetidamente\
+      \ el par mas cercano hasta que queden n_clusters"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

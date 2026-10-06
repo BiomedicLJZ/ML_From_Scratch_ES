@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar _pairwise_distances()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 202
+        length: 66
+        placeholder_text: "# devuelve la matriz completa (n_samples, n_samples) de distancias\
+      \ euclidianas"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

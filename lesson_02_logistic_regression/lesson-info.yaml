@@ -1,0 +1,10 @@
+custom_name: Regresión Logística
+content:
+  - theory
+  - sigmoid_task
+  - predict_proba_task
+  - predict_task
+  - cost_task
+  - gradient_task
+  - fit_task
+  - quiz_task

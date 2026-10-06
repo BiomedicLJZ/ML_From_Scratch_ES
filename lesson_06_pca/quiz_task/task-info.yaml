@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Es arbitrario - representa la misma dirección de cualquier forma
+    is_correct: true
+  - text: Siempre apunta hacia los valores más grandes de los datos
+    is_correct: false
+  - text: Indica si el componente explica varianza positiva o negativa
+    is_correct: false
+message_incorrect: Vuelve a leer la sección "Una nota sobre el signo" de la página
+  de teoría - un autovector y su negación describen exactamente el mismo eje.
+files:
+  - name: main.py
+    visible: true
+custom_name: Quiz - Signo del componente principal
+local_check: true

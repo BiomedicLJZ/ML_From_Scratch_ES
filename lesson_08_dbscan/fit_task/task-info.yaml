@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar fit()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 1084
+        length: 581
+        placeholder_text: "# visita cada punto en orden, marcando ruido o expandiendo\
+      \ un nuevo cluster desde puntos nucleo"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Para evitar tomar log(0), que no está definido (-infinito)"
+    is_correct: true
+  - text: Para hacer que la tasa de aprendizaje decaiga con el tiempo
+    is_correct: false
+  - text: Para forzar a que los pesos permanezcan entre 0 y 1
+    is_correct: false
+message_incorrect: "Vuelve a leer la sección \"La función de costo\" de la página\
+  \ de teoría — recortar (clip) mantiene la probabilidad predicha estrictamente dentro\
+  \ de (0, 1) para que log(p) y log(1 - p) nunca se disparen."
+files:
+  - name: main.py
+    visible: true
+custom_name: Quiz - ¿Por qué recortar las probabilidades antes de log()?
+local_check: true

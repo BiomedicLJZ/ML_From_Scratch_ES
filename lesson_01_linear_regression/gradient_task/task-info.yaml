@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar compute_gradients()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 509
+        length: 208
+        placeholder_text: "# calcula dw y db, los gradientes del MSE respecto a weights\
+      \ y bias"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

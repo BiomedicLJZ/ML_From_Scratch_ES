@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar _predict_one()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 431
+        length: 279
+        placeholder_text: "# encuentra los n_neighbors puntos de entrenamiento mas cercanos\
+      \ a x y devuelve su etiqueta mayoritaria"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

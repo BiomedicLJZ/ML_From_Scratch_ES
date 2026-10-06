@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar compute_gradients()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 736
+        length: 180
+        placeholder_text: "# calcula dw y db usando predict_proba(X) - y, misma forma\
+      \ que los gradientes de la regresion lineal"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

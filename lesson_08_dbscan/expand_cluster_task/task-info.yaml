@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar _expand_cluster()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 419
+        length: 633
+        placeholder_text: "# hace crecer cluster_id hacia afuera desde point_idx a traves\
+      \ de sus vecinos densidad-alcanzables"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar compute_cost()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 362
+        length: 98
+        placeholder_text: "# calcula las predicciones y devuelve el error cuadratico medio\
+      \ respecto a y"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

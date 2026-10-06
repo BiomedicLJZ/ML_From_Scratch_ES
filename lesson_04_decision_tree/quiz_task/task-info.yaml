@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Una hoja, ya que no queda nada por dividir"
+    is_correct: true
+  - text: Un nodo interno que siempre divide sobre la primera característica
+    is_correct: false
+  - text: Un nodo con la máxima impureza de Gini
+    is_correct: false
+message_incorrect: "Vuelve a leer la sección \"Construyendo el árbol\" de la página\
+  \ de teoría — un nodo con una sola clase presente ya tiene impureza de Gini 0, así\
+  \ que no queda ninguna división útil por encontrar."
+files:
+  - name: main.py
+    visible: true
+custom_name: Quiz - ¿Cuándo se convierte un nodo en hoja?
+local_check: true

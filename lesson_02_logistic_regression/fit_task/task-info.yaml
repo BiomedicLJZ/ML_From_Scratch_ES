@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar fit()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 951
+        length: 305
+        placeholder_text: "# inicializa weights y bias en cero, luego ejecuta descenso\
+      \ de gradiente durante n_iterations"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

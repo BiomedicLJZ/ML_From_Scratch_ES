@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar predict()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 455
+        length: 55
+        placeholder_text: "# aplica el umbral a predict_proba(X) y convierte el resultado\
+      \ booleano a int"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

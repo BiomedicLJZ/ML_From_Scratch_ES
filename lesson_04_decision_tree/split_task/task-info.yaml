@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar _split_dataset()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 431
+        length: 91
+        placeholder_text: "# divide X e y en los grupos izquierdo (<=threshold) y derecho\
+      \ (>threshold)"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

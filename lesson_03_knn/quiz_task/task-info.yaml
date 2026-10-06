@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Aumenta, porque cada prediccion recorre todo el conjunto de entrenamiento"
+    is_correct: true
+  - text: "Disminuye, porque el modelo aprende menos parametros con el tiempo"
+    is_correct: false
+  - text: "Se mantiene constante, ya que KNN precalcula una frontera de decision durante\
+    \ fit"
+    is_correct: false
+message_incorrect: "Vuelve a leer la seccion \"Entrenar es solo memorizar\" de la\
+  \ pagina de teoria — KNN no tiene una fase de entrenamiento real, asi que todo el\
+  \ trabajo (calcular la distancia a cada punto de entrenamiento) ocurre al momento\
+  \ de predecir."
+files:
+  - name: main.py
+    visible: true
+custom_name: Quiz - Costo de prediccion en KNN
+local_check: true

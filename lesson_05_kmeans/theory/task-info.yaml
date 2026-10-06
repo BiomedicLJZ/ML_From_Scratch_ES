@@ -1,0 +1,5 @@
+type: theory
+custom_name: ¿Qué es el clustering K-Means?
+files:
+  - name: main.py
+    visible: true

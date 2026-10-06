@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Reduce el error cuadrático medio sobre los datos de entrenamiento
+    is_correct: true
+  - text: Reduce el número de características usadas por el modelo
+    is_correct: false
+  - text: Aumenta la tasa de aprendizaje después de cada iteración
+    is_correct: false
+message_incorrect: Vuelve a leer la sección "Descenso de gradiente" de la página de
+  teoría — el descenso de gradiente da pasos repetidos en los parámetros en la dirección
+  que reduce la función de costo.
+files:
+  - name: main.py
+    visible: true
+custom_name: Quiz - ¿Qué hace el descenso de gradiente?
+local_check: true

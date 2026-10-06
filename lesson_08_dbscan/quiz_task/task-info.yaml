@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "-1, es decir, ruido"
+    is_correct: true
+  - text: "La etiqueta del cluster más cercano, sin importar qué tan lejos esté"
+    is_correct: false
+  - text: "0, el id de cluster por defecto"
+    is_correct: false
+message_incorrect: Vuelve a leer la página de teoría — DBSCAN nunca fuerza a cada
+  punto dentro de un cluster. Un punto al que la expansión de ningún punto núcleo
+  llega jamás conserva su etiqueta inicial.
+files:
+  - name: main.py
+    visible: true
+custom_name: Quiz - DBSCAN y el ruido
+local_check: true

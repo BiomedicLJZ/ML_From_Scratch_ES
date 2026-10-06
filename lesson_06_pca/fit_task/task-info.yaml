@@ -1,0 +1,16 @@
+type: edu
+custom_name: Implementar fit()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 299
+        length: 452
+        placeholder_text: "# centra X, construye la matriz de covarianza, descomponla\
+      \ en autovalores/autovectores, ordena descendente, y quedate con los primeros\
+      \ n_components"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

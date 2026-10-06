@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: La distancia más pequeña entre cualquier punto del primer cluster y cualquier
+      punto del segundo
+    is_correct: true
+  - text: La distancia entre los centroides de los dos clusters
+    is_correct: false
+  - text: La distancia más grande entre cualquier punto del primer cluster y cualquier
+      punto del segundo
+    is_correct: false
+message_incorrect: "Vuelve a leer la sección \"Linkage\" de la página de teoría —\
+  \ single linkage se define como el mínimo, no el máximo ni la distancia entre centroides\
+  \ (eso sería complete linkage o un método basado en centroides)."
+files:
+  - name: main.py
+    visible: true
+custom_name: Quiz - ¿Qué es la distancia single-linkage?
+local_check: true

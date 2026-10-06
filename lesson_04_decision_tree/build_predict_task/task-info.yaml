@@ -1,0 +1,19 @@
+type: edu
+custom_name: Implementar _build_tree() y _predict_one()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 1394
+        length: 648
+        placeholder_text: "# condiciones de parada -> hoja, si no busca la mejor division\
+      \ y recurre en los dos hijos"
+      - offset: 2188
+        length: 206
+        placeholder_text: "# si es una hoja devuelve su clase, si no recurre a la izquierda\
+      \ o a la derecha"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

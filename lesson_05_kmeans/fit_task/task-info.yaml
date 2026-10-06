@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar fit()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 608
+        length: 334
+        placeholder_text: "# ejecuta el bucle asignar/actualizar durante n_iterations\
+      \ y guarda centroids_ y labels_"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

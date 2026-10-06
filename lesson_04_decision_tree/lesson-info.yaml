@@ -1,0 +1,8 @@
+custom_name: Árbol de Decisión
+content:
+  - theory
+  - gini_task
+  - split_task
+  - best_split_task
+  - build_predict_task
+  - quiz_task

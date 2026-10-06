@@ -1,0 +1,5 @@
+type: theory
+custom_name: ¿Qué es un árbol de decisión?
+files:
+  - name: main.py
+    visible: true

@@ -1,0 +1,14 @@
+type: edu
+custom_name: Implementar la función sigmoide
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 282
+        length: 27
+        placeholder_text: "# devuelve 1 / (1 + exp(-z))"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

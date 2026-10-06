@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar _gini()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 254
+        length: 105
+        placeholder_text: "# calcula las proporciones de clase y devuelve la impureza\
+      \ de Gini"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

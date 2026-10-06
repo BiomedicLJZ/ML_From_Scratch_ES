@@ -1,0 +1,14 @@
+type: edu
+custom_name: Implementar transform()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 789
+        length: 46
+        placeholder_text: "# centra X, luego proyectalo sobre self.components_"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

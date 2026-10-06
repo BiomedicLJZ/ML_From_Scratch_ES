@@ -1,0 +1,14 @@
+type: edu
+custom_name: Implementar _assign_clusters()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 283
+        length: 135
+        placeholder_text: "# asigna cada punto de X al indice de su centroide mas cercano"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

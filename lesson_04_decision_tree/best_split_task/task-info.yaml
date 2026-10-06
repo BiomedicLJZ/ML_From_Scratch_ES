@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar _best_split()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 565
+        length: 779
+        placeholder_text: "# busca en cada caracteristica y umbral la division con menor\
+      \ Gini ponderado"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

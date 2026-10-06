@@ -1,0 +1,15 @@
+type: edu
+custom_name: Implementar _region_query()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 225
+        length: 108
+        placeholder_text: "# encuentra y devuelve los indices de cada punto dentro de\
+      \ eps de X[point_idx]"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

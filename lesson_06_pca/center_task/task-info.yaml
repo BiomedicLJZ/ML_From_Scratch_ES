@@ -1,0 +1,14 @@
+type: edu
+custom_name: Implementar _center()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 246
+        length: 21
+        placeholder_text: "# resta self.mean_ de X y devuelvelo"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

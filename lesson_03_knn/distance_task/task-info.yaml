@@ -1,0 +1,14 @@
+type: edu
+custom_name: Implementar _euclidean_distance()
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 354
+        length: 36
+        placeholder_text: "# devuelve la distancia euclidiana entre a y b"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

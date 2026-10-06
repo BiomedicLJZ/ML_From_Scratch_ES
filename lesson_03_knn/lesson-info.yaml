@@ -1,0 +1,7 @@
+custom_name: K-Nearest Neighbors
+content:
+  - theory
+  - distance_task
+  - predict_one_task
+  - predict_task
+  - quiz_task
